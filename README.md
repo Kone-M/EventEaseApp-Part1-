@@ -280,11 +280,9 @@ EventEaseApp/
 
 ## Contributors
 
-- **Student Name**: [Your Name]
-- **Student ID**: [Your ID]
-- **Course**: [Your Course Name]
-- **Institution**: [Your Institution]
-- **Supervisor**: [Supervisor Name]
+- **Student Name**: Kone Moshapo
+- **Institution**: Rosebank College
+
 
 ## Academic Information
 
