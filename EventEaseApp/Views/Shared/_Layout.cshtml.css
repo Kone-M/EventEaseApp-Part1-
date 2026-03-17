@@ -1,0 +1,168 @@
+﻿/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    color: #ffffff !important;
+}
+
+/* Blue theme styles */
+a {
+    color: #0066cc;
+}
+
+    a:hover {
+        color: #004080;
+    }
+
+.btn-primary {
+    color: #fff;
+    background-color: #0066cc;
+    border-color: #0052a3;
+}
+
+    .btn-primary:hover {
+        background-color: #0052a3;
+        border-color: #004080;
+    }
+
+.btn-outline-primary {
+    color: #0066cc;
+    border-color: #0066cc;
+}
+
+    .btn-outline-primary:hover {
+        color: #fff;
+        background-color: #0066cc;
+        border-color: #0066cc;
+    }
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #0066cc;
+    border-color: #0052a3;
+}
+
+/* Navbar customization */
+.navbar-dark.bg-primary {
+    background-color: #0066cc !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+    .navbar-dark .navbar-nav .nav-link:hover,
+    .navbar-dark .navbar-nav .nav-link:focus {
+        color: #ffffff;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 4px;
+    }
+
+    .navbar-dark .navbar-nav .nav-link.active {
+        color: #ffffff;
+        font-weight: 500;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 4px;
+    }
+
+/* Border colors */
+.border-top {
+    border-top: 1px solid #cce0f0 !important;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #cce0f0 !important;
+}
+
+.border-primary {
+    border-color: #0052a3 !important;
+}
+
+/* Box shadow */
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 102, 204, 0.1);
+}
+
+/* Button styles */
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Footer styles */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+    background: linear-gradient(135deg, #e6f0fa 0%, #cce0f0 100%);
+}
+
+.bg-light-blue {
+    background: linear-gradient(135deg, #e6f0fa 0%, #d4e4f5 100%);
+}
+
+/* Card styles for blue theme */
+.card {
+    border: 1px solid #cce0f0;
+}
+
+.card-header {
+    background-color: #e6f0fa;
+    color: #004080;
+    font-weight: 500;
+}
+
+/* Table styles */
+.table thead th {
+    background-color: #e6f0fa;
+    color: #004080;
+    border-bottom: 2px solid #0066cc;
+}
+
+/* Alert styles */
+.alert-info {
+    background-color: #e6f0fa;
+    border-color: #b8d4f0;
+    color: #004080;
+}
+
+/* Badge styles */
+.badge.bg-primary {
+    background-color: #0066cc !important;
+}
+
+.badge.bg-info {
+    background-color: #b8d4f0 !important;
+    color: #004080;
+}
+
+/* Link styles within cards */
+.card a {
+    color: #0066cc;
+}
+
+    .card a:hover {
+        color: #004080;
+    }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar-dark .navbar-nav .nav-link:hover,
+    .navbar-dark .navbar-nav .nav-link:focus,
+    .navbar-dark .navbar-nav .nav-link.active {
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+
+    .footer {
+        white-space: normal;
+        line-height: 40px;
+    }
+}
+
+/* Removed the @import line - it's now in _Layout.cshtml */

@@ -1,0 +1,40 @@
+﻿@model EventEaseApp.Models.Booking
+
+@{
+    ViewData["Title"] = "Booking Details";
+}
+
+<div class="container">
+    <h1>Booking Details</h1>
+
+    <div class="card">
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">@Html.DisplayNameFor(model => model.BookingId)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.BookingId)</dd>
+
+                <dt class="col-sm-3">Event</dt>
+                <dd class="col-sm-9">
+                    <a asp-controller="Events" asp-action="Details" asp-route-id="@Model.EventId">
+                        @Model.Event?.EventName
+                    </a>
+                </dd>
+
+                <dt class="col-sm-3">Venue</dt>
+                <dd class="col-sm-9">
+                    <a asp-controller="Venues" asp-action="Details" asp-route-id="@Model.VenueId">
+                        @Model.Venue?.VenueName
+                    </a>
+                </dd>
+
+                <dt class="col-sm-3">@Html.DisplayNameFor(model => model.BookingDate)</dt>
+                <dd class="col-sm-9">@Model.BookingDate.ToString("yyyy-MM-dd HH:mm")</dd>
+            </dl>
+        </div>
+    </div>
+
+    <div class="mt-3">
+        <a asp-action="Edit" asp-route-id="@Model.BookingId" class="btn btn-warning">Edit</a>
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </div>
+</div>
