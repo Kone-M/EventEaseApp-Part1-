@@ -286,10 +286,9 @@ EventEaseApp/
 
 ## Academic Information
 
-- **Module**: [Module Name]
 - **Assignment**: Part 1 - Project Foundation and Initial Deployment
 - **Marks**: 100
-- **Submission Date**: March 2026
+- **Submission Date**: 15 March 2026
 
 ## References
 
@@ -310,10 +309,7 @@ Johnson, M. and Smith, P. (2022) 'Cloud computing adoption in small to medium en
 This project is created for educational purposes as part of an academic assignment. All rights reserved.
 
 ## Contact Information
-For any queries regarding this project, please contact:
-- **Email**: [your.email@institution.edu]
-- **GitHub**: [yourgithubusername]
-- **LinkedIn**: [yourlinkedinprofile]
+For any queries regarding this project, please contact:076552467
 
 ---
 
